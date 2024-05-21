@@ -18,9 +18,11 @@
 	"typescript.tsdk": "node_modules/typescript/lib",
 	"typescript.enablePromptUseWorkspaceTsdk": true,
 
+	"stylelint.enable": true,
 	"stylelint.validate": [
 		"css",
 		"less",
 		"postcss",
+		"typescript"
 	]
 }
