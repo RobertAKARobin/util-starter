@@ -1,7 +1,5 @@
 {
 	"unwantedRecommendations": [
-		"denoland.vscode-deno",
-
 		// These are not recommended because we're not actually using lit-html, so they complain about things that conflict with lit-html directives
 		"runem.lit-plugin",
 		"bierner.lit-html"
