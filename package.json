@@ -1,6 +1,6 @@
 {
 	"dependencies": {
-		"@robertakarobin/util": "^0.0.419",
+		"@robertakarobin/util": "^0.0.423",
 		"esbuild": "^0.21.3"
 	},
 	"description": "todo1",
