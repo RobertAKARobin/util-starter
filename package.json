@@ -5,8 +5,8 @@
 	},
 	"description": "todo1",
 	"devDependencies": {
-		"@robertakarobin/csslint": "^0.0.27",
-		"@robertakarobin/eslint-config-ts": "^0.0.45",
+		"@robertakarobin/csslint": "^0.0.31",
+		"@robertakarobin/eslint-config-ts": "^0.0.47",
 		"@robertakarobin/htmlvalidate": "^0.0.9",
 		"husky": "^9.0.11",
 		"npm-check-updates": "^16.14.20"
@@ -19,7 +19,7 @@
 		"lint:css": "stylelint **/*.css **/*.css.ts",
 		"lint:html": "html-validate dist",
 		"lint:ts": "eslint . && tsc",
-		"prepare": "husky && ncu -u",
+		"prepare": "husky && ncu",
 		"start": "npm run do:serve",
 		"test": "npm run lint"
 	},
