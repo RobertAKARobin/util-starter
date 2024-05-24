@@ -5,7 +5,7 @@
 	},
 	"description": "todo1",
 	"devDependencies": {
-		"@robertakarobin/csslint": "^0.0.31",
+		"@robertakarobin/csslint": "^0.0.32",
 		"@robertakarobin/eslint-config-ts": "^0.0.47",
 		"@robertakarobin/htmlvalidate": "^0.0.9",
 		"husky": "^9.0.11",
@@ -13,6 +13,8 @@
 	},
 	"name": "todo1",
 	"scripts": {
+		"css:build": "cssts src/index.css.ts",
+		"css:watch": "cssts src/index.css.ts -- --watch --watch-preserve-output",
 		"do:build": "esbuild --format=esm --outdir=dist --platform=browser --target=esnext src/index.ts",
 		"do:serve": "esbuild --format=esm --outdir=dist --platform=browser --target=esnext --servedir=dist --watch src/index.ts",
 		"lint": "npm run lint:ts && npm run lint:css && npm run lint:html",
